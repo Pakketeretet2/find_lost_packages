@@ -10,3 +10,5 @@ can "simply" run pacman -S $( find_lost_packages.out ). For files that can be
 provided by more than one package, pkgfile returns them all so you will have to
 decide for yourself which package(s) you do not want by manually removing them
 from the output file and rerunning pacman.
+
+The script assumes you have pkgfile and xargs installed.
